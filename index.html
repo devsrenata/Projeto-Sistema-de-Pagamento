@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <script src="js/exercicio.js"></script>
+    <title>Lógicas Condicionais</title>
+</head>
+<body>
+    <div class="topo">
+        <img src="img/off.png" alt="">
+
+    </div>
+    <div class="conteudo">
+        <div class="row">
+            <div class="col">
+                <fieldset>
+                    <h1>Sistema Pagamento Bancário</h1>
+                    
+                    <form action="">
+                        <label for="">R$ Valor do Boleto</label>
+                        <input type="number" name="txtValor" id=""><br>
+                        <label for="">Data Vencimento:</label>
+                        <input type="date" name="txtVenc" id="" placeholder="dd/mm/aaaa"><br>
+                        <label for="">Data Pagamento:</label>
+                        <input type="date" name="txtPag" id=""><br>
+                        <input type="button" value="Calcular" onclick="pagarBoleto(txtValor.value, txtVenc.value, txtPag.value)">
+                        <input type="reset" value="Limpar">
+                        <label for="">Total a Pagar:</label>
+                        <input type="number" name="" id="txtPagamento" placeholder="R$ --">
+                    </form>
+                </fieldset>
+            </div>
+           
+            
+
+    </div>
+    <div class="rodape">
+        <div class="row">
+            <div class="col">
+                <h1><a href="">RenataDev Design for Web </a>  </h1>
+                <p>Todos os direitos reservados - Copyrights © 2024.</p>
+            
+        </div>
+
+    </div>
+    
+</body>
+</html>
